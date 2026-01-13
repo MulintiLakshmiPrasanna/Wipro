@@ -1,49 +1,37 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.IO;
 
-// User-defined exception
-public class TransactionLimitException : Exception
-{
-    public TransactionLimitException(string msg) : base(msg)
-    {
-    }
-}
-
-// Business logic class
-class AccountService
-{
-    private decimal maxLimit = 1000;
-    private decimal todayTotal = 0;
-
-    public void Withdraw(decimal amt)
-    {
-        if (todayTotal + amt > maxLimit)
-        {
-            throw new TransactionLimitException("Cannot withdraw. Daily limit reached.");
-        }
-
-        todayTotal += amt;
-        Console.WriteLine("Withdrawal successful : " + amt);
-    }
-}
-
-// Execution class
-class TestBank
+class FileHandlingDemo
 {
     static void Main()
     {
-        AccountService acc = new AccountService();
+        string filePath = "demo.txt";
 
-        try
+        // STEP 1: Create file
+        File.Create(filePath).Close();
+
+        // STEP 2: Write data into file
+        File.WriteAllText(filePath, "Hello! File handling in C#.");
+
+        Console.WriteLine("Data written to file.");
+
+        // STEP 3: Read data from file
+        Console.WriteLine("Reading data from file...");
+
+        string messageFromFile = File.ReadAllText(filePath);
+
+        Console.WriteLine("Message read from file:");
+        Console.WriteLine(messageFromFile);
+
+        // STEP 4: Check if file exists
+        if (File.Exists(filePath))
         {
-            acc.Withdraw(600);
-            acc.Withdraw(300);
-            acc.Withdraw(200); // exceeds limit
+            Console.WriteLine("File exists.");
         }
-        catch (TransactionLimitException e)
-        {
-            Console.WriteLine("Error : " + e.Message);
-        }
+
+        // STEP 5: Delete file
+        File.Delete(filePath);
+        Console.WriteLine("File deleted.");
     }
 }
-
