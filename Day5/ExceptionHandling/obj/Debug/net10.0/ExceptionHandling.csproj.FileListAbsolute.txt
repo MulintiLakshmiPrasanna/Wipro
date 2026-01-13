@@ -1,0 +1,15 @@
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.exe
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.deps.json
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.runtimeconfig.json
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.dll
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\bin\Debug\net10.0\ExceptionHandling.pdb
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.AssemblyInfo.cs
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.sourcelink.json
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.dll
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\refint\ExceptionHandling.dll
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.pdb
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ExceptionHandling.genruntimeconfig.cache
+C:\Users\hariv\OneDrive\Desktop\Wipro\Day5\ExceptionHandling\obj\Debug\net10.0\ref\ExceptionHandling.dll
