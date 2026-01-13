@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace Day2_Programs
+namespace Day2
 {
     internal class Program1
     {
